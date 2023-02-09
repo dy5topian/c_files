@@ -4,7 +4,7 @@ int ** create_func(int a,int b);
 int ** matrix_add(int ** T1,int**T2,int n,int m);
 int ** matrix_prod(int ** T1,int**T2,int n);
 int main(){
-/*printf(R"EOF(              .7
+printf(R"EOF(              .7
             .'/
            / /
           / /
@@ -35,7 +35,7 @@ int main(){
                         \"-.__""|!|"-.__.-".)     \ \
                          "-.__""\_|"-.__.-"./      \ l
                           ".__""">G>-.__.-">       .--,_
-                              GG"")EOF");*/
+                              GG"")EOF");
     printf("\n");
     int n,m,c;
     int**T1,**T2,**T3,**T4;
